@@ -1,0 +1,315 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #232525;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem;
+  list-style: none;
+  color: black;
+  font-size: 17px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 30px;
+  font-weight: bold;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo1 {
+  padding: 3rem;
+}
+
+.logo1 img {
+  height: 100px;
+  margin: auto;
+}
+
+.navbtn button {
+  background-color: #FFD634;
+  padding: 1rem;
+  color: black;
+  border-radius: 6px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 4.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 46px;
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.naslovnapizza img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  text-align: center;
+  color: #C97F38;
+  font-size: 32px;
+  letter-spacing: 2px;
+  padding: 3rem;
+  padding-bottom: 5rem;
+  font-family: 'Indie Flower', cursive;
+}
+
+.popularne {
+  max-width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 100%;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  text-align: center;
+}
+
+.popularne img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 300px;
+  padding-bottom: 1rem;
+}
+
+.popularne a {
+  color: #FFD634;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.cjenik {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+table {
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 60%;
+  height: 200px;
+  border-radius: 12px 12px 0 0;
+  -webkit-box-shadow: 0 2px 12px;
+          box-shadow: 0 2px 12px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+th {
+  background: #C96A2C;
+  color: #232525;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+tr:nth-child(odd) {
+  background-color: #D89D6C;
+}
+
+.classic {
+  height: 100px;
+}
+
+.jumbo {
+  height: 150px;
+}
+
+.broj {
+  padding: 3rem;
+}
+
+.broj p {
+  background-color: #FFD634;
+  margin: auto;
+  width: 300px;
+  padding: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2px 12px;
+          box-shadow: 0 2px 12px;
+}
+
+.dostava p {
+  padding: 2rem;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+
+.lokacija {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  padding: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-bottom: 4rem;
+}
+
+.lokacija p {
+  color: white;
+  font-size: 18px;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.lokacija img {
+  border-radius: 7px;
+  -webkit-box-shadow: 0 2px 12px;
+          box-shadow: 0 2px 12px;
+}
+
+.lokacija a {
+  text-decoration: none;
+  color: #FFD634;
+  padding: 1rem;
+  font-size: 52px;
+}
+
+footer {
+  background-color: #C96A2C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  padding-top: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  color: white;
+}
+
+footer img {
+  height: 50px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.logofoot {
+  padding-left: 3rem;
+}
+
+.navrh {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  color: #FFD634;
+  font-size: 32px;
+}
+
+.navrh a {
+  color: #FFD634;
+}
+/*# sourceMappingURL=style.css.map */
